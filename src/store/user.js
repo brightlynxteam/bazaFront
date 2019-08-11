@@ -28,7 +28,9 @@ const actions = {
   register({ commit }, payload) {
     axios
       .post(registerUrl, { payload })
-      .then(response => console.log(response))
+      .then(console.log(payload))
+      .then(commit('setLoggedIn', payload))
+      // .then(response => console.log(response))
       .catch((error) => {
         showErrorMessage(error.message);
       });
