@@ -38,4 +38,5 @@ export default {
   child_label: 'Дети',
   children: ['Ребенок', 'Ребенка', 'Детей'],
   check_prices: 'Проверить цены',
+  info_about_hutorok: 'Информация о Хуторке',
 };

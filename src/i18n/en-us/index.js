@@ -38,4 +38,5 @@ export default {
   child_label: 'Children',
   children: ['Child', 'Children'],
   check_prices: 'Check prices',
+  info_about_hutorok: 'Info About Hutorok',
 };
