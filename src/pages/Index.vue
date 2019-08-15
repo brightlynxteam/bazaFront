@@ -1,6 +1,7 @@
 <template>
   <q-page class="flex flex-center">
-    <booking-card />
+    <img alt="Quasar logo" src="~assets/quasar-logo-full.svg">
+    <info-hutorok/>
   </q-page>
 </template>
 
@@ -8,12 +9,11 @@
 </style>
 
 <script>
-import BookingCard from 'components/BookingCard.vue';
-
+  import InfoHutorok from '../components/InfoAboutHutorok.vue';
 export default {
   name: 'PageIndex',
   components: {
-    BookingCard,
+    InfoHutorok,
   },
 };
 </script>
