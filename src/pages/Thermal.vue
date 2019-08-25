@@ -5,9 +5,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'Thermal',
-  };
+export default {
+  name: 'Thermal',
+};
 </script>
 
 <style scoped>

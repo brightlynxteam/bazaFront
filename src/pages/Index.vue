@@ -1,9 +1,7 @@
 <template>
   <q-page padding>
-    <img alt="Quasar logo" src="~assets/quasar-logo-full.svg">
     <booking-card/>
 
-    // Info Block About Hutorok
     <h1>Познакомьтесь с базой отдыха Хуторок</h1>
     <q-card>
       <router-link to="/thermal">
@@ -51,7 +49,8 @@
 </style>
 
 <script>
-  import BookingCard from 'components/BookingCard.vue';
+import BookingCard from 'components/BookingCard.vue';
+
 export default {
   name: 'PageIndex',
   components: {
