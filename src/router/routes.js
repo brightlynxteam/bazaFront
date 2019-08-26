@@ -50,6 +50,11 @@ const routes = [
         props: true,
       },
       {
+        path: 'news',
+        name: 'news',
+        component: () => import('pages/news.vue'),
+      },
+      {
         path: '/auth/forgot-password',
         name: 'password-reset',
         component: () => import('pages/PasswordReset.vue'),

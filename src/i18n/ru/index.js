@@ -17,6 +17,7 @@ export default {
   forgot_password: 'Забыли пароль?',
   register: 'Зарегистрироваться',
   phone: 'Телефон',
+  news: 'News',
   enter_correct_tel_number: 'Пожалуйста введите корректный номер телефона',
   enter_correct_email: 'Невалидный e-mail',
   twentyfive_characters_password: 'Сократите пароль до 25 символов',
