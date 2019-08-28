@@ -131,7 +131,7 @@ export default {
         this.$store.commit('setLang', lang);
       },
     },
-    ...mapGetters('user', ['loggedIn']),
+    ...mapGetters(['loggedIn']),
   },
   methods: {
     openURL,
