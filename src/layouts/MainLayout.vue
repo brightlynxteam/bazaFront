@@ -90,7 +90,7 @@
             v-text="$t('info')"
           />
           <router-link
-            :to="{ name: 'news'}"
+            :to="{ name: 'news', params: {id: 1}}"
             class="standard-link text-white"
             v-text="$t('news')"
           />

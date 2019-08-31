@@ -62,7 +62,7 @@ const routes = [
         props: true,
       },
       {
-        path: 'news',
+        path: 'news/:id',
         name: 'news',
         component: () => import('pages/news.vue'),
       },
