@@ -61,7 +61,7 @@ export default {
         console.log('content=', this.$store.state.content);
         const dateD = this.$store.state.content.oneNew.news.created_at;
         const date1 = new Date(dateD);
-        this.$store.state.DateStr = date1.toDateString();
+        this.$store.state.DateStr = date1.toLocaleDateString();
         this.$router.push({ name: 'news', params: { id: this.$route.params.id } });
       })
       .catch((error) => {
