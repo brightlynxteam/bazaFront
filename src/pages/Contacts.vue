@@ -1,7 +1,6 @@
 <template>
   <q-page padding>
     <h1 class="text-h2" v-text="$t('contacts')"/>
-    <h1 class="text-h2" v-text="$t('news')"/>
   </q-page>
 </template>
 
